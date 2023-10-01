@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",  // or "ES6", depending on your environment
+        "module": "commonjs",
+        "outDir": "./dist",
+        "strict": true,
+        "esModuleInterop": true
+    },
+    "include": [
+        "./**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
